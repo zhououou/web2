@@ -1,0 +1,115 @@
+/*
+* @Author: 周咪咪
+* @Date:   2019-12-12 15:40:24
+* @Last Modified by:   周咪咪
+* @Last Modified time: 2019-12-13 21:08:45
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+
+.box1{
+	height: 463px;
+	width: 1362px;
+	margin: 0 auto;
+	/* background-color: red; */
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	/* display: inline-block; */
+}
+.box2{
+	height: 22px;
+	width: 1362px;
+	margin: 0 auto;
+	background-color: #cccccc;
+
+}
+.box2 img{
+	margin-left: 180px;
+	margin-top: 4px;
+}
+.words{
+	/* float: right; */
+	width: 970px;
+	height: 22px;
+	overflow: hidden;
+	/* background-color: blue; */
+	margin-right: 180px;
+	display: inline-block;
+	position: relative;
+}
+#warn{
+	/* width: 1370px; */
+	color: #fc160c;
+	font-size: 15px;
+	font-weight: bold;
+	position: absolute;
+	left: 700px;
+	/* padding-right:970px; */
+}
+
+.box3{
+	height: 382px;
+	width: 1204px;
+	overflow: hidden;
+	position: relative;
+	margin-left: 80px;
+	margin-top:12px;
+}
+.slide{
+	width: 1204px;
+	overflow: hidden;
+	float: left;
+}
+.slider{
+	width: 8428px;
+	position: absolute;
+	left: -1204px;
+}
+.box3>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	top: 175px;
+	line-height: 50px;
+	background-color: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right:30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	font-size: 15px;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	float: bottom;
+	text-align: center;
+	color: #383931;
+}
+
+li.active{
+	background:#fc160c;
+	color: #fefed6;
+}
